@@ -1,0 +1,94 @@
+/* Color variables */
+/* Font */
+@import "https://fonts.googleapis.com/css?family=Lato:400,400i,700|Press+Start+2P|Source+Serif+Pro";
+/* helpers */
+.uppercase {
+  text-transform: uppercase;
+}
+
+/* General */
+body {
+  background: url("https://s9.postimg.io/5sa82izql/website_backgroundfinal.png");
+  background-size: cover;
+  color: #f2f2f2;
+}
+
+header {
+  margin-top: 80px;
+}
+
+h1 {
+  font-family: "Press Start 2P", cursive;
+  -webkit-text-stroke: 2px black;
+  text-shadow: 5px 5px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  margin-bottom: 20px;
+  font-size: 100px;
+}
+@media (max-width: 900px) {
+  h1 {
+    font-size: 60px;
+  }
+}
+@media (max-width: 500px) {
+  h1 {
+    font-size: 30px;
+  }
+}
+
+.bat-logo {
+  width: 200px;
+}
+
+h3 {
+  font-family: "Lato", sans-serif;
+  font-size: 30px;
+}
+
+.icon {
+  width: 80px;
+  margin-bottom: 50px;
+}
+.icon:first-child {
+  margin-right: 40px;
+}
+.icon:last-child {
+  margin-left: 40px;
+}
+
+.google-play {
+  margin-top: 20px;
+  width: 220px;
+}
+
+.description {
+  font-family: "Source Serif Pro", serif;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.content {
+  margin-top: 100px;
+  margin-bottom: 150px;
+}
+.content h3 {
+  color: #bd9827;
+}
+.content .iphone1 {
+  width: 250px;
+}
+@media (max-width: 639px) {
+  .content .iphone1 {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 180px;
+    margin-bottom: 60px;
+  }
+}
+
+.section2 h3 {
+  color: #bd9827;
+  letter-spacing: 6px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
