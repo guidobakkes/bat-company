@@ -28,11 +28,11 @@ cursive;
 
 body {
   background: url('https://s9.postimg.io/5sa82izql/website_backgroundfinal.png');
-   -webkit-background-size: cover;
-      -moz-background-size: cover;
-        -o-background-size: cover;
-           background-size: cover;
-  ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+;
   color: $text-main;
 }
 
@@ -59,7 +59,7 @@ h1 {
 .bat-logo {
   width: 200px;
 }
-    
+
 h3 {
   font-family: $font-heading;
   font-size: 30px;
@@ -96,6 +96,8 @@ h3 {
   }
   .phone1 {
     width: 250px;
+    -webkit-animation-delay: 1s; /* Chrome, Safari, Opera */
+    animation-delay: 1s;
   }
   @media (max-width: 639px) {
     .phone1 {
@@ -117,7 +119,7 @@ h3 {
     }
   }
 }
-    
+
 footer {
   padding-top: 40px;
   padding-bottom: 30px;
