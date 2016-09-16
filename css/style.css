@@ -95,9 +95,12 @@ h3 {
 /* line 97, ../scss/style.scss */
 .content .phone1 {
   width: 250px;
+  -webkit-animation-delay: 1s;
+  /* Chrome, Safari, Opera */
+  animation-delay: 1s;
 }
 @media (max-width: 639px) {
-  /* line 101, ../scss/style.scss */
+  /* line 103, ../scss/style.scss */
   .content .phone1 {
     display: block;
     margin: auto;
@@ -105,38 +108,38 @@ h3 {
     width: 180px;
     margin-bottom: 60px;
   }
-  /* line 108, ../scss/style.scss */
+  /* line 110, ../scss/style.scss */
   .content .description {
     text-align: center;
     padding-left: 80px;
   }
-  /* line 111, ../scss/style.scss */
+  /* line 113, ../scss/style.scss */
   .content .description ul {
     margin-left: 0;
   }
-  /* line 114, ../scss/style.scss */
+  /* line 116, ../scss/style.scss */
   .content .description li {
     list-style: none;
   }
 }
 
-/* line 121, ../scss/style.scss */
+/* line 123, ../scss/style.scss */
 footer {
   padding-top: 40px;
   padding-bottom: 30px;
   background: #2a303e;
 }
-/* line 125, ../scss/style.scss */
+/* line 127, ../scss/style.scss */
 footer h3 {
   color: #bd9827;
   letter-spacing: 6px;
 }
 @media (max-width: 639px) {
-  /* line 130, ../scss/style.scss */
+  /* line 132, ../scss/style.scss */
   footer h3 {
     font-size: 20px;
   }
-  /* line 133, ../scss/style.scss */
+  /* line 135, ../scss/style.scss */
   footer .icon {
     width: 50px;
   }
